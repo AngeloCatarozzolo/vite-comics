@@ -4,4 +4,6 @@ import { ref } from 'vue'
 
 <template></template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+
+</style>
