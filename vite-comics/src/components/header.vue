@@ -63,13 +63,13 @@ import { ref } from 'vue'
                     text-decoration: none;
                     color: gray;
                     letter-spacing: .0313rem;
-                    padding: 0 .625rem;
+                    padding: 0;
                 }
                 a:after{
                     content: "";
                     position: absolute;
                     background-color: #0282f9;
-                    height: .3125rem;
+                    height: 5px;
                     width: 0;
                     left: 0;
                     bottom: -3.3125rem;
@@ -80,7 +80,7 @@ import { ref } from 'vue'
                 }
                 
                 a:hover:after{
-                    width: 95%;
+                    width: 100%;
                 }
         }
 
