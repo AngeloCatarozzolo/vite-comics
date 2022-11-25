@@ -7,7 +7,7 @@ import { ref } from 'vue'
 <template>
     <div class="container">
         <div class="logo">
-            <img src="../assets/dc-logo.png" alt="">
+            <img src="../assets/dc-logo.png" alt="logo">
         </div>
         <nav>
             <ul class="nav-link">
@@ -31,11 +31,13 @@ import { ref } from 'vue'
 <style lang="scss" scoped>
 .container {
     width: 100%;
+    height: 120px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     
     .logo{
+        height: 100px;
         width: 62.5rem;
         float: right;
         display: flex;
@@ -66,23 +68,22 @@ import { ref } from 'vue'
                 a:after{
                     content: "";
                     position: absolute;
-                    background-color: blue;
-                    height: .1875rem;
+                    background-color: #0282f9;
+                    height: .3125rem;
                     width: 0;
                     left: 0;
-                    bottom: -3.125rem;
+                    bottom: -3.3125rem;
                     transition: 0.3s;
                 }
                 a:hover{
-                    color: blue;
+                    color: #0282f9;
                 }
                 
                 a:hover:after{
-                    width: 100%;
+                    width: 95%;
                 }
         }
 
     }
 }
-
 </style>

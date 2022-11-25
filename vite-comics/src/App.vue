@@ -5,24 +5,12 @@ import footerVue from './components/footer.vue';
 </script>
 
 <template>
-    
-    <div class="section">
-        <headerVue></headerVue>
-    </div>
-    <div>
-        <mainVue></mainVue>
-    </div>
+    <headerVue></headerVue>
+    <mainVue></mainVue>
 </template>
 
 <style lang="scss" scoped>
-
-#app{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-.section{
-    width: 100%;
-    display: flex;
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 }
 </style>
